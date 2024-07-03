@@ -7,8 +7,14 @@
 - Javascript
 - Именование классов по [методологии БЭМ](https://ru.bem.info/methodology/css/)
 
-## Ссылка на gh-pages
+## Запуск локально
+**Git Bash:**
+1. ```git clone https://github.com/hvny/summer-practise-2024.git```
+2. ```cd summer-practise-2024```
+3. ```npm i```
+4. ```npm run dev```
 
+## Ссылка на gh-pages
 ⚠️ **Warning**
 - _Solidjs работает с gh-pages не очень корректно. При переходе по ссылке, будет кастомное сообщение о несуществующей странице._
 - _При переходе по роутам всё будет в порядке._
