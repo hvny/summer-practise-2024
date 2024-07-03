@@ -1,0 +1,10 @@
+.page {
+  min-height: 100vh;
+  background-color: #282c34;
+  
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
