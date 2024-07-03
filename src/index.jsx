@@ -3,8 +3,6 @@ import { render } from 'solid-js/web';
 import './index.css';
 
 import { Route, Router } from '@solidjs/router';
-import { createHashHistory } from 'history';
-
 
 import App from './components/App/App';
 import Building from './components/Building/Building';
@@ -17,7 +15,6 @@ import TechnicalMeans from './components/TechnicalMeans/TechnicalMeans';
 import NotFoundPage from './components/NotFoundPage/NotFoundPage';
 
 const root = document.getElementById('root');
-const history = createHashHistory();
 
 if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   throw new Error(
@@ -25,12 +22,8 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-// render(() => (
-//   <App />  
-// ), root);
-
 render(() => (
-  <Router root={App} history={history} base={process.env.NODE_ENV === 'production' ? '/summer-practise-2024/' : '/'}>
+  <Router root={App} base={process.env.NODE_ENV === 'production' ? '/summer-practise-2024/' : '/'}>
     <Route path="/" component={Home} />
     <Route path="/building" component={Building} />
     <Route path="/disciplines" component={Disciplines} />
