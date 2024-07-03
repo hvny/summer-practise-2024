@@ -9,6 +9,7 @@
 
 ## Ссылка на gh-pages
 
-**Warning** `#c5f015`
+<p color="#c5f015">**Warning**</p>
+ 
 
 https://hvny.github.io/summer-practise-2024/
