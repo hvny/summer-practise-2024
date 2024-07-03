@@ -8,5 +8,4 @@
 - Именование классов по [методологии БЭМ](https://ru.bem.info/methodology/css/)
 
 ## Ссылка на gh-pages
-
-...
+https://hvny.github.io/summer-practise-2024/
