@@ -27,7 +27,7 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 // ), root);
 
 render(() => (
-  <Router root={App}>
+  <Router root={App} base={process.env.NODE_ENV === 'production' ? '/summer-practise-2024/' : '/'}>
     <Route path="/" component={Home} />
     <Route path="/building" component={Building} />
     <Route path="/disciplines" component={Disciplines} />
